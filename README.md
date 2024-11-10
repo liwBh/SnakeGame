@@ -13,6 +13,16 @@
     source venv/bin/activate # macOS/Linux:
 ```
 
+3. Generar archivo requirements.txt, si no lo tenemos o queremos actualizarlo
+```   
+  pip freeze > requirements.txt
+```  
+   
+4. Install requirements 
+```   
+  pip install -r requirements.txt
+```
+
 ## Librerias
 
 1. Pygame
